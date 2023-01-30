@@ -85,9 +85,87 @@ img
     margin: 0 auto;
     display: inline-block;
 }
+/* Events */
+.event-head , p
+{
+    text-align: center;
+    margin-top: 60px;
+}
+.table-row 
+{
+    background-color: #3a3a3a;
+    color: #fff;
+}
+.table-row th,td
+{
+    letter-spacing: 3px;
+    text-align: center;
+    border: 30px;
+    padding: 20px;
+    border-radius: 4px;
+}
+em
+{
+    font-weight: 800;
+    text-decoration: wavy;
+    color: #f16c6b;
+
+}
 /* footer index.html */
+.footer-content
+{
+    background-color: #3a3a3a;
+}
+.footer-container
+{
+    padding-bottom: 4px; 
+}
+.footer
+{
+width: 80%;
+height: 40px;
+color: #fff;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin: 0 auto;
+font-family: Oswald, sans-serif;
+}
+.footer-heading
+{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+}
+.footer-heading h2
+{
+    margin-bottom: 2rem;
+}
+.footer-heading a
+{
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+.footer-heading a:hover
+{
+    color: #f16c6b;
+}
+.footer-email-form h2
+{
+margin-bottom: 2rem;
+}
+#footer-email
+{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+    border: 1px solid #f16c6b;
+}
+.social-heading
+{
 
-
+}
 /* Signup Style */
 .form-section {
     clear: left;
@@ -156,6 +234,7 @@ footer{
     font-weight: 600;
     color: #fafafa;
     background-color: rgba(60, 60, 60, 0.6);
+    position: relative;
 }
 
 .social-networks li{
