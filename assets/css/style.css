@@ -115,7 +115,6 @@ h3
 {
     display: inline-grid;
     grid-template-columns: auto auto auto auto;
-    margin-left: 0.5rem;
 }
 .footer-heading
 {
@@ -234,7 +233,9 @@ footer{
   .timetable {
     grid-template-columns: auto;
   }
-.footer{
-grid-template-columns: auto;
-  }
+}
+@media screen and (max-width: 800px){
+    .footer{
+        grid-template-columns: auto;
+    }
 }
