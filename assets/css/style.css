@@ -1,11 +1,225 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+*{
+    text-decoration: none;
+}
+header
+{
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+header .header-logo
+{
+    font-family: Oswald, sans-serif;
+    font-size: 24px;
+    color: #111;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+header nav ul
+{
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+
+}
+header nav ul li
+{
+   display: inline-block;
+   float: left;
+   list-style: none;
+   padding: 0 16px;
+
+}
+header nav ul li a
+{
+    
+    font-family: Oswald, sans-serif;
+    font-size: 16px;
+    color: #111;
+    text-transform: uppercase;
+}
+@media only screen and (min-width: 1000px) {
+    header .header-logo
+{
+    margin: 31px 0;
+    text-align: left;
+    line-height: 38px;
+    padding: 0px 20px 0px 40px;
+    border-right: 3px solid #111;
+    float: left;
+}
+header nav ul
+{
+    margin: 20px 0px 0px 20px;
+    float: left;
+}
+header nav ul li a
+{
+    line-height: 60px;
+}
+}
+/* Index */
+.index-banner
+{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background: url('../images/meditation.jpg.jpg') no-repeat center center;
+    background-size: cover;
+    display: table;
+
+}
+.banner-text-center
+{
+     display: table-cell;
+     vertical-align: middle;
+}
+.index-banner h2 
+{
+    font-family: Oswald, sans-serif;
+    font-size: 60px;
+    font-weight: 650;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px #111;
+}
+.index-boxlink div
+{
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+p{
+    color: #111;
+}
+.index-boxlink div h3
+{
+    font-family: Oswald, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+@media only screen and (min-width: 1000px) {
+    .wrapper
+    {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .index-banner
+    {
+        width: 100%;
+        height: 500px;
+        background: url('../images/meditation.jpg.jpg') no-repeat center center;
+        background-size: cover;
+        display: table;
+    
+    }
+    .index-banner h2 
+    {
+    font-size: 90px;
+    padding-top: 120px;
+   }
+   .index-boxlink
+  {
+    padding-bottom: 20px;
+    overflow: hidden;
+  }
+   .index-boxlink div
+  {
+    margin: 20px 10px 0;
+    height: 230px;
+    background-color: #f2f2f2;
+    float: left;
+  }
+   .index-boxlink-yoga
+   {
+    width: calc(33% - 20px) !important;
+   }
+   .index-boxlink-mindfulness
+   {
+    width: calc(33% - 20px) !important;
+   }
+   .index-boxlink-meditation
+   {
+    width: calc(33% - 20px) !important;
+   }
+}
+
+/* Footer */
+
+footer
+{
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: #111;
+    overflow: hidden;
+}
+footer ul
+{
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+footer ul li
+{
+    display: block;
+    list-style: none;
+}
+footer ul li a
+{
+    font-family: Oswald, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+}
+.footer-links-address
+{
+    display: none;
+}
+.footer-socialmedia
+{
+    width: 50px;
+    float: right; 
+}
+.footer-socialmedia li
+{
+    width: 100px;
+    list-style: none;  
+    font-size: 50px; 
+}    
+@media only screen and (min-width: 1000px) {
+    .footer-links-address
+{
+    display: block;
+    padding-left: 200px;
+}
+footer ul li
+{
+    font-family: Oswald, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+    
+}
+ 
+}
+
+
+/*@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 *{
 margin: 0;
 padding: 0;
 border: 0;
 }
 body{
-    
     font-weight: 300;
     color: #3a3a3a;
     background-color: #fff;
@@ -13,13 +227,13 @@ body{
 .container {
   max-width: 1140px;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
+ /* padding-right: 15px;
+  padding-left: 15px;*/
+  /*margin-right: auto;
   margin-left: auto;
-}
+}/*
 /* heading and logo */
-h1,h2
+/*h1,h2
 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -33,7 +247,7 @@ h1,h2
     margin-left: 30px;
 }
 /* nevigation link */
-#menu
+/*#menu
 {
      font-size: 110%;
      letter-spacing: 4px;
@@ -62,10 +276,12 @@ h1,h2
     border-bottom: 1px solid #3a3a3a;
 }
 /* image content */
-.yoga-image {
+/*.yoga-image {
   display: inline-grid;
+  width : 90%;
   grid-template-columns: auto auto auto;
   padding: 1rem;
+  margin-right: 10px;
 }
 .yoga-image img {
   width: 100%;
@@ -75,9 +291,10 @@ h1,h2
 {
   float: left;  
   margin-top: 20px; 
-}
+ /* margin-right: 10px;*/
+/*}*/
 /* Events */
-.event-head , h3
+/*.event-head , h3
 {
     text-align: center;
     margin-top: 2rem;
@@ -85,8 +302,8 @@ h1,h2
 .timetable {
   display: inline-grid;
   grid-template-columns: auto auto auto auto auto auto auto;
-  padding: 1rem;
-  width: 100%;
+  /*padding: 1rem;*/
+  /*width: 100%;
 }
 .day h5 {
   font-style: oblique;
@@ -100,20 +317,20 @@ h1,h2
 }
 h3
 {
-    font-weight: 800;
     color: #fafafa;
     background-color: blue;
-    
+    margin-right: 30px;
 }
 /* footer index.html */
 
-.footer-container
+/*.footer-container
 {
     padding-bottom: 4px; 
 }
 .footer
 {
     display: inline-grid;
+   
     grid-template-columns: auto auto auto auto;
 }
 .footer-heading
@@ -139,7 +356,7 @@ h3
 {
      margin-bottom: 2rem;
      margin-top: 4rem;
-     margin-left: 10px
+     
 }
 #footer-email
 {
@@ -148,12 +365,11 @@ h3
     border-radius: 4px;
     padding: auto;
     border: 1px solid #f16c6b;
-    margin-left: 10px;
     text-align: center;
 }
 #footer-email-button
 {
-    margin-left: 10px;
+    margin-left: 12px;
     border: 1px solid #f16c6b;
     padding: 0.5rem;
     border-radius: 4px;
@@ -164,7 +380,7 @@ h3
 }
 
 /* Signup Style */
-.form-section {
+/*.form-section {
     clear: left;
     background-size: cover;
     background-position: center;
@@ -173,7 +389,7 @@ h3
 .signup-form
 {
     margin: 150px 10% 0 0;       /*10% 0 0;*/
-    color: #fff;
+  /*  color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: absolute;
@@ -216,7 +432,7 @@ h3
     color: #f16c6b;
 }
 /* signup footer */
-footer{
+/*footer{
     height: 50px;
 }
 .social-networks{
@@ -252,4 +468,36 @@ footer{
     .footer{
         grid-template-columns: auto;
     }
+}*/
+/*@media only screen and (min-width: 768px) {
+    #menu li{
+        margin-right: 90px;
+    }
+    .yoga-image {
+        width : 90%;
+        margin-right: 40px;
+      }
+    h3{
+        margin-right: 6rem;
+    }
+    .timetable{
+        display: inline-flex;
+    }
+    .footer{
+       display: block;
+       padding: 0 20%;
+    }
 }
+@media only screen and (min-width: 1000px) {
+   
+    .yoga-image {
+        display: -ms-inline-grid;
+        padding: 20px 0px 0px;
+        width : 40%;
+        margin-right: 40px;
+      }
+      .yoga-image img {
+        padding: 20px 0px 0px;
+      }
+
+}*/
