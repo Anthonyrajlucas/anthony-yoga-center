@@ -11,7 +11,7 @@ header .header-logo
 {
     font-family: Oswald, sans-serif;
     font-size: 24px;
-    color: #111;
+    color: green;
     font-weight: 900;
     text-transform: uppercase;
     display: block;
@@ -38,7 +38,7 @@ header nav ul li a
     
     font-family: Oswald, sans-serif;
     font-size: 16px;
-    color: #111;
+    color: green;
     text-transform: uppercase;
 }
 @media only screen and (min-width: 1000px) {
@@ -55,10 +55,12 @@ header nav ul
 {
     margin: 20px 0px 0px 20px;
     float: left;
+    
 }
 header nav ul li a
 {
     line-height: 60px;
+    
 }
 }
 /* Index */
@@ -81,7 +83,7 @@ header nav ul li a
     font-family: Oswald, sans-serif;
     font-size: 60px;
     font-weight: 650;
-    color: #fff;
+    color: white;
     text-align: center;
     text-shadow: 2px 2px #111;
 }
@@ -95,17 +97,39 @@ header nav ul li a
 .index-boxlink div > p
 {
     color: #111;
-    line-height: 20px;
+    line-height: 17px;
+    text-align: center;
 }
+
 .index-boxlink div h3
 {
     font-family: Oswald, sans-serif;
     font-size: 28px;
     font-weight: 600;
-    line-height: 30px;
-    color: #111;
+    line-height: 50px;
+    color: green;
     text-align: center;
     text-transform: uppercase;
+}
+@media only screen and (max-width: 1000px) {
+    .index-boxlink-yoga{
+        height: 150px !important;
+    }
+    .index-boxlink-meditation{
+        height: 150px !important;
+        
+    }
+    .index-boxlink-mindfulness{
+        height: 150px !important;
+        margin-top: auto;
+    }
+    .index-boxlink-mission{
+        height: 250px !important;
+    }
+    .index-boxlink-events{
+        height: 250px !important;  
+       
+    }
 }
 @media only screen and (min-width: 1000px) {
     .wrapper
