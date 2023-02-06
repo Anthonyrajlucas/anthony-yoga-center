@@ -129,6 +129,22 @@ header nav ul li a
         height: 250px !important;  
        
     }
+    
+}
+@media only screen and (max-width: 380px) {
+
+.index-banner h2 
+{
+    font-size: 50px;
+    font-weight: 550;
+}
+.index-boxlink-mission{
+    height: 300px !important;
+}
+.index-boxlink-mindfulness{
+    height: 200px !important;
+    margin-top: auto;
+}
 }
 @media only screen and (min-width: 1000px) {
     .wrapper
