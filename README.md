@@ -15,7 +15,7 @@ This website provides a wealth of information on various aspects of yoga, includ
                         International Day of Yoga , New Year Celebration , Foundation
                         Youth and Truth , Yantra Ceremony
 
-[mockupscreenshot](documentation/responsive%20image.jpg)
+![mockupscreenshot](documentation/responsive%20image.jpg)
 
 ## 	Navigation Bar
 
@@ -23,11 +23,11 @@ o	Featured on all three pages, the full responsive navigation bar includes links
 
 o	This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-[navigation bar](documentation/navigation%20bar.jpg )
+![navigation bar](documentation/navigation%20bar.jpg )
 
 ##	The landing page image
 
-[landingpageimage](documentation/landing%20page.jpg)
+![landingpageimage](documentation/landing%20page.jpg)
 
 ## Index Section
 
@@ -35,13 +35,13 @@ o	The Index section provides an overview of the benefits of Yoga, Mindfulness, a
 
 o	This user will see the value of Yoga practice can also help to decrease physiological stress and arousal in the body. For example, meditation combined with regular yoga practice can lower blood pressure and heart rate, reduce inflammation in the body, and aid in reducing chronic pain issues..This should encourage the user to consider yoga as their form of exercise.
 
-[indeximage](documentation/index%20page.jpg)
+![indeximage](documentation/index%20page.jpg)
 
 ##	Events
 
 o	This section will allow the user to see Monthly and Annual and Special Events 
 
-[eventsimage](documentation/events.jpg)
+![eventsimage](documentation/events.jpg)
 
 ## The Footer
 
@@ -51,19 +51,19 @@ o	The footer is valuable to the user as it encourages them to keep connected via
 
 o	The Contact Us section in the footer can be used to reach our yoga center
 
-[footerimage](documentation/footer.jpg)
+![footerimage](documentation/footer.jpg)
 
 ## Mission
 
 o	ANT-YOGA Foundation is dedicated to raising human consciousness, and fosters global harmony through individual transformation. It is an essential resource for exploring the ancient science of yoga in all its depth and dimensions. The foundation offers a variety of programs that provide methods for anyone to attain physical, mental and spiritual wellbeing. Its offerings allow participants to deepen their experience of life, and reach their ultimate potential.
 
-[missionimage](documentation/mission.jpg)
+![missionimage](documentation/mission.jpg)
 
 ## The Sign Up Page
 
 o	By signing up on this page, the user will be able to start practicing/registering for yoga, meditation, and mindfulness with the community. It will be possible for the user to specify whether they would like to practice Yoga/Meditation and mindfulness or both types of yoga. In order to use the service, the user must submit their full name and email address.
 
-[signupimage](documentation/sign%20up.jpg)
+![signupimage](documentation/sign%20up.jpg)
 
 ## Resources
 
