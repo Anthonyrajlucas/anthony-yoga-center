@@ -104,7 +104,7 @@ o	CSS
 o	ACCESSIBILITY 
      I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools
 
-![lighthouse-image](documentation/light-house.jpg)
+![lighthouse-image](documentation/lighthouse.png)
 
 ## Bugs
 
