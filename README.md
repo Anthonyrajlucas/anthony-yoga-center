@@ -15,7 +15,7 @@ This website provides a wealth of information on various aspects of yoga, includ
                         International Day of Yoga , New Year Celebration , Foundation
                         Youth and Truth , Yantra Ceremony
 
-![mockupscreenshot](documentation/responsive-image.jpg)
+![mockupscreenshot](documentation/responsive.jpg)
 
 ## 	Navigation Bar
 
@@ -23,7 +23,7 @@ o	Featured on all three pages, the full responsive navigation bar includes links
 
 o	This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![navigationbar](documentation/navigationbar.jpg)
+![navigationbar](documentation/navigation-bar.jpg)
 
 ##	The landing page image
 
@@ -35,7 +35,7 @@ o	The Index section provides an overview of the benefits of Yoga, Mindfulness, a
 
 o	This user will see the value of Yoga practice can also help to decrease physiological stress and arousal in the body. For example, meditation combined with regular yoga practice can lower blood pressure and heart rate, reduce inflammation in the body, and aid in reducing chronic pain issues..This should encourage the user to consider yoga as their form of exercise.
 
-![indeximage](documentation/index-page.jpg)
+![indeximage](documentation/index.jpg)
 
 ##	Events
 
@@ -63,7 +63,7 @@ o	ANT-YOGA Foundation is dedicated to raising human consciousness, and fosters g
 
 o	By signing up on this page, the user will be able to start practicing/registering for yoga, meditation, and mindfulness with the community. It will be possible for the user to specify whether they would like to practice Yoga/Meditation and mindfulness or both types of yoga. In order to use the service, the user must submit their full name and email address.
 
-![signupimage](documentation/signup.jpg)
+![signupimage](documentation/sign-up.jpg)
 
 ## Resources
 
@@ -91,9 +91,9 @@ o	I have confirmed that the form works: requires entries in every field, will on
 
 ## Validator Testing
 
-[validatorimage](documentation/validator-html.jpg)
+![validatorimage](documentation/validator-html.jpg)
 
-[validatorcssimage](documentation/validator-css.jpg)
+![validatorcssimage](documentation/validator-css.jpg)
 
 o	HTML
       No errors were returned when passing through the official W3C validator
@@ -104,7 +104,7 @@ o	CSS
 o	ACCESSIBILITY 
      I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools
 
-[lighthouseimage](documentation/lighthouse.jpg)
+![lighthouseimage](documentation/light-house.jpg)
 
 ## Bugs
 
