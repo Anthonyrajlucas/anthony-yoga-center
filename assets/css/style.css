@@ -111,28 +111,26 @@ header nav ul li a
     text-transform: uppercase;
 }
 @media only screen and (max-width: 1000px) {
-    .index-boxlink-yoga{
+.index-boxlink-yoga{
         height: 150px !important;
     }
-    .index-boxlink-meditation{
+.index-boxlink-meditation{
         height: 150px !important;
         
     }
-    .index-boxlink-mindfulness{
+.index-boxlink-mindfulness{
         height: 150px !important;
         margin-top: auto;
     }
-    .index-boxlink-mission{
+.index-boxlink-mission{
         height: 250px !important;
     }
-    .index-boxlink-events{
+.index-boxlink-events{
         height: 250px !important;  
        
-    }
-    
+    }    
 }
 @media only screen and (max-width: 380px) {
-
 .index-banner h2 
 {
     font-size: 50px;
@@ -147,12 +145,12 @@ header nav ul li a
 }
 }
 @media only screen and (min-width: 1000px) {
-    .wrapper
+.wrapper
     {
         width: 1000px;
         margin: 0 auto;
     }
-    .index-banner
+.index-banner
     {
         width: 100%;
         height: 500px;
@@ -161,32 +159,32 @@ header nav ul li a
         display: table;
         text-shadow: 2px 2px #111;
     }
-    .index-banner h2 
+.index-banner h2 
     {
     font-size: 90px;
     padding-top: 120px;
    }
-   .index-boxlink
+.index-boxlink
   {
     padding-bottom: 20px;
     overflow: hidden;
   }
-   .index-boxlink div
+.index-boxlink div
   {
     margin: 20px 10px 0;
     height: 230px;
     background-color: #f2f2f2;
     float: left;
   }
-   .index-boxlink-yoga
+.index-boxlink-yoga
    {
     width: calc(33% - 20px) !important;
    }
-   .index-boxlink-mindfulness
+.index-boxlink-mindfulness
    {
     width: calc(33% - 20px) !important;
    }
-   .index-boxlink-meditation
+.index-boxlink-meditation
    {
     width: calc(33% - 20px) !important;
    }
@@ -281,7 +279,6 @@ footer ul li
     border: 1px solid #fafafa;
     border-radius: 2px;
 }
-
 .text-input:hover {
     border-color: #f16c6b;
 }
@@ -301,5 +298,3 @@ footer ul li
     background-color: #fafafa;
     color: #f16c6b;
 }
-
-
