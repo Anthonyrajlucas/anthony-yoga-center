@@ -15,7 +15,7 @@ This website provides a wealth of information on various aspects of yoga, includ
                         International Day of Yoga , New Year Celebration , Foundation
                         Youth and Truth , Yantra Ceremony
 
-![mockupscreenshot](documentation/responsiveimage.jpg)
+![mockupscreenshot](documentation/responsive-image.jpg)
 
 ## 	Navigation Bar
 
@@ -27,7 +27,7 @@ o	This section will allow the user to easily navigate from page to page across a
 
 ##	The landing page image
 
-![landingpageimage](documentation/landingpage.jpg)
+![landingpageimage](documentation/landing-page.jpg)
 
 ## Index Section
 
@@ -35,7 +35,7 @@ o	The Index section provides an overview of the benefits of Yoga, Mindfulness, a
 
 o	This user will see the value of Yoga practice can also help to decrease physiological stress and arousal in the body. For example, meditation combined with regular yoga practice can lower blood pressure and heart rate, reduce inflammation in the body, and aid in reducing chronic pain issues..This should encourage the user to consider yoga as their form of exercise.
 
-![indeximage](documentation/indexpage.jpg)
+![indeximage](documentation/index-page.jpg)
 
 ##	Events
 
@@ -91,9 +91,9 @@ o	I have confirmed that the form works: requires entries in every field, will on
 
 ## Validator Testing
 
-[validatorimage](documentation/validatorhtml.jpg)
+[validatorimage](documentation/validator-html.jpg)
 
-[validatorcssimage](documentation/validatorcss.jpg)
+[validatorcssimage](documentation/validator-css.jpg)
 
 o	HTML
       No errors were returned when passing through the official W3C validator
