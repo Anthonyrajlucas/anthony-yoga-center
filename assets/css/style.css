@@ -154,7 +154,7 @@ header nav ul li a
     {
         width: 100%;
         height: 500px;
-        background: url('../images/yoga.jpg.jpg') no-repeat center center;
+        background: url('../images/yoga.jpg') no-repeat center center;
         background-size: cover;
         display: table;
         text-shadow: 2px 2px #111;
@@ -250,7 +250,7 @@ footer ul li
 /* Signup Style */
 .form-section {
     clear: left;
-    background: url("../images/meditation.jpg.jpg") no-repeat center center;
+    background: url("../images/meditation.jpg") no-repeat center center;
     background-size: cover;
     height: 900px;
 }
