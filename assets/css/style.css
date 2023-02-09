@@ -67,7 +67,7 @@ header nav ul li a
 {
     width: 100%;
     height: calc(100vh - 100px);
-    background: url('../images/elina-fairytale-yoga.jpg') no-repeat center center;
+    background: url('../images/elina-yoga.jpeg') no-repeat center center;
     background-size: cover;
     display: table;
 
@@ -250,7 +250,7 @@ footer ul li
 /* Signup Style */
 .form-section {
     clear: left;
-    background: url("../images/meditation.jpg") no-repeat center center;
+    background: url("../images/meditation.jpg.jpg") no-repeat center center;
     background-size: cover;
     height: 900px;
 }
